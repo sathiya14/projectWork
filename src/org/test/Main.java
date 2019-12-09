@@ -13,6 +13,8 @@ public static void main(String[] args) {
 	WebElement g = driver.findElement(By.id("email"));
 	fill(g, "arguments[0].setAttribute('value','ADSDS')");
 	
+	System.out.println("245678");
+	
 }
 	
 	
